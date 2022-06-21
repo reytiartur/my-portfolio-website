@@ -1,0 +1,38 @@
+// MY THEME COLORS
+$lemon:  #fff707;
+$black:    #000;
+$purple-pink:  #9b2dc0;
+
+// PRIMARY AND SECONDARY
+$primary:       $lemon;
+$secondary:     $purple-pink;
+
+
+// WHITES AND BLACKS
+$white:    #fff;
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #adb5bd;
+$gray-600: #6c757d;
+$gray-700: #495057;
+$gray-800: #343a40;
+$gray-900: #212529;
+$black:    #000;
+
+// ACCORDION
+$accordion-button-active-color:           shade-color($secondary, 10%);
+
+// CONTAINER WIDTH
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 90%
+);
+
+
+
+@import"../node_modules/bootstrap/scss/bootstrap.scss";
