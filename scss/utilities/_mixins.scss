@@ -4,3 +4,24 @@
 @mixin gradient {
     background: linear-gradient(to right, rgba($primary, 0.95), rgba($secondary, 0.95));
 }
+
+@mixin bg-white {
+    background: rgba($color: #eeeeee, $alpha: 0.3);
+    border-radius: 10px;
+    border: black solid 1px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    width: 70%;
+    padding: 1rem auto;
+}
+
+@mixin absoluteCenter {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@mixin transitionProp {
+    transition-duration: 1000ms;
+    transition-property: all;
+}
